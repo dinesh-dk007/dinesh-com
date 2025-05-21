@@ -13,11 +13,11 @@ export function Footer() {
         Built by{" "}
         <a
           className="link"
-          href="https://linkedin.com/in/ncdai"
+          href="https://www.linkedin.com/in/dinesh-kumaar-k/"
           target="_blank"
           rel="noopener"
         >
-          ncdai
+          dinesh
         </a>
         . The source code is available on{" "}
         <a
