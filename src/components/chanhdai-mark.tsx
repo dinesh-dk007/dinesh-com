@@ -1,3 +1,35 @@
+import React from 'react';
+import { animate } from 'animejs';
+
+export function ChanhDaiMarkDots(props: React.ComponentProps<"div">) {
+  React.useEffect(() => {
+    const options = {
+      grid: [13, 13],
+      from: 'center',
+    };
+
+    animate(document.querySelectorAll('.dot'), {
+      targets: '.dot',
+      scale: [1.1, 0.75],
+      delay: (_target, i) => i * 200,
+      duration: 1500,
+      loop: true,
+      direction: 'alternate',
+      easing: 'easeInOutQuad'
+    });
+  }, []);
+
+  return (
+    <div className="grid grid-cols-13 gap-1" {...props}>
+      {Array.from({ length: 169 }).map((_, i) => (
+        <div
+          key={i}
+          className="dot w-2 h-2 bg-current rounded-full"
+        />
+      ))}
+    </div>
+  );
+}
 export function ChanhDaiMark(props: React.ComponentProps<"svg">) {
   return (
     <svg
