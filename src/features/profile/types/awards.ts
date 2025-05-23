@@ -5,4 +5,5 @@ export type Award = {
   date: string;
   grade: string;
   description?: string;
+  image: string; // Path to the award proof image
 };
