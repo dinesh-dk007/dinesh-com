@@ -23,10 +23,10 @@ export const CERTIFICATIONS: Certification[] = [
     title: "React Foundations for Next.js",
     issuer: "Vercel",
     issuerLogo: "/images/companies/vercel.webp",
-    issueDate: "2025-04-26",
-    credentialID: "react-foundations-47463-1745634245158",
+    issueDate: "2025-05-24",
+    credentialID: "react-foundations-63266-1748106104371",
     credentialURL:
-      "https://nextjs.org/learn/certificate?course=react-foundations&user=47463&certId=react-foundations-47463-1745634245158",
+      "https://nextjs.org/learn/certificate?course=react-foundations&user=63266&certId=react-foundations-63266-1748106104371",
   },
   {
     title: "Vietnamese Standardized Test of English Proficiency (CEFR B1)",
