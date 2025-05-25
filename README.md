@@ -8,7 +8,7 @@ Check out the live site: [dinesh.com](https://dinesh.com)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./public/screenshot-desktop-dark.webp">
-  <img src="./public/screenshot-desktop-dark.webp" alt="Screenshot">
+  <img src=""C:\Users\dines\dinesh.com1\public\screenshot-desktop-dark.webp" alt="Screenshot">
 </picture>
 
 ## Core Features & Technologies
