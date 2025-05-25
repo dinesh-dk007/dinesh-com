@@ -7,9 +7,9 @@ import React, { useCallback, useEffect, useState } from "react";
 import { ChanhDaiMark } from "@/components/chanhdai-mark";
 import { Button } from "@/components/ui/button";
 import { SimpleTooltip } from "@/components/ui/tooltip";
-import { AppleHelloVietnameseEffect } from "@/registry/apple-hello-effect";
+import { AppleHelloEnglishEffect } from "@/registry/apple-hello-effect";
 
-const layers = ["xin-chao", "chanhdai-wordmark"] as const;
+const layers = ["hello", "chanhdai-wordmark"] as const;
 
 export function Hello() {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -38,22 +38,13 @@ export function Hello() {
           key={`layer-${currentIndex}`}
           className="flex items-center justify-center text-black dark:text-white"
         >
-          {layers[currentIndex] === "xin-chao" && (
-            <AppleHelloVietnameseEffect
+          {layers[currentIndex] === "hello" && (
+            <AppleHelloEnglishEffect
               className="h-10 sm:h-16"
               exit={{ opacity: 0, scale: 0.8 }}
               onAnimationComplete={nextAnimation}
             />
           )}
-
-          {/* {layers[currentIndex] === "hello" && (
-            <AppleHelloEnglishEffect
-              className="h-10 sm:h-16"
-              speed={0.8}
-              exit={{ opacity: 0, scale: 0.8 }}
-              onAnimationComplete={nextAnimation}
-            />
-          )} */}
 
           {layers[currentIndex] === "chanhdai-wordmark" && (
             <motion.div

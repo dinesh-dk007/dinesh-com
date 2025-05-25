@@ -4,14 +4,14 @@ import { FlipSentences } from "@/registry/flip-sentences";
 
 import { ChanhDaiAvatar } from "./chanhdai-avatar";
 import { ChanhDaiCover } from "./chanhdai-cover";
+import { ChanhDaiCoverHello } from "./chanhdai-cover-hello";
 import { VerifiedIcon } from "./verified-icon";
 
 export function Header() {
   return (
     <div className="relative mt-2">
       <div className="flex h-12" />
-
-      <ChanhDaiCover />
+      <ChanhDaiCoverHello />
 
       <div className="screen-line-after flex border-x border-edge">
         <div className="shrink-0 border-r border-edge">
