@@ -9,7 +9,6 @@ export const AWARDS: Award[] = [
     grade: "2nd Year",
     description:
       "- Field: Duo Coding \n- Description: To solve problems as a team\n- Programming Language used: Java",
-    image: "/images/DuoDevs-awards.jpg" // Corrected image path
   },
 
 ];
