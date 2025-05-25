@@ -32,7 +32,7 @@ export function CodeBlockCommand({
       <Tabs
         className="gap-0"
         value={packageManager}
-        onValueChange={(value) => {
+        onValueChange={(value: string) => {
           setConfig((prev) => ({
             ...prev,
             packageManager: value as PackageManager,
@@ -74,7 +74,7 @@ export function CodeBlockCommand({
 
       <CopyButton
         className="absolute top-2 right-2"
-        value={tabs[packageManager] || ""}
+        value={tabs[packageManager as keyof typeof tabs] || ""}
       />
     </div>
   );

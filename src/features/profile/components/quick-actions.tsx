@@ -20,22 +20,22 @@ export function QuickActions() {
             <div className="border-x border-edge pt-2">
               <div className="screen-line-before screen-line-after -mx-px flex justify-center gap-2 sm:grid sm:grid-cols-2 sm:gap-4">
                 <Button className="sm:hidden" size="icon:lg" asChild>
-                  <a href="/vcard" target="_blank" rel="noopener noreferrer">
+                  <a href="/resume.pdf" download>
                     <UserCirclePlusIcon className="size-5" />
-                    <span className="sr-only">Save vCard</span>
+                    <span className="sr-only">Download Resume</span>
                   </a>
                 </Button>
 
                 <Button className="hidden sm:flex" size="lg" asChild>
-                  <a href="/vcard" target="_blank" rel="noopener noreferrer">
+                  <a href="/resume.pdf" download>
                     <UserCirclePlusIcon />
-                    Save vCard
+                    Download Resume
                   </a>
                 </Button>
 
                 <Button size="lg" asChild>
                   <a
-                    href={isClient ? `mailto:${decodeEmail(USER.email)}` : "#"}
+                    href="mailto:dineshkumaar9025067808@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

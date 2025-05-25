@@ -2,7 +2,7 @@ import { USER } from "@/data/user";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://dinesh-dk007.com",
+  url: (typeof process !== 'undefined' ? process.env.APP_URL : undefined) || "https://dinesh-dk007.com",
   ogImage: "/og-image.png",
   description: USER.bio,
   keywords: ["software engineer", "web developer", "Backend developer", "javascript", "react", "node.js"],

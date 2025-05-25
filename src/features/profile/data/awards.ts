@@ -8,7 +8,7 @@ export const AWARDS: Award[] = [
     date: "2025-02",
     grade: "2nd Year",
     description:
-      "- Field: Duo Coding \n- Description: To solve problems as a team\n- Programming Language used: Java",
+      "- Field: Coding \n- Description: To solve problems as a team\n- Programming Language used: Java",
   },
 
 ];

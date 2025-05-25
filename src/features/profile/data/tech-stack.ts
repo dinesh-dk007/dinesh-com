@@ -161,13 +161,7 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Tools", "AI"],
     theme: true,
   },
-  {
-    key: "Trae",
-    title: "Trae",
-    href: "https://www.trae.ai/",
-    categories: ["Tools", "AI", "IDE"],
-    theme: true,
-  },
+
   // {
   //   key: "zalo-mini-app",
   //   title: "Zalo Mini App",
