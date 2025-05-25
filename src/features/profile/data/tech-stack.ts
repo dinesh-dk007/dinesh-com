@@ -20,12 +20,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Language"],
   },
   {
-    key: "php",
-    title: "PHP",
-    href: "https://www.php.net/",
-    categories: ["Language"],
-  },
-  {
     key: "java",
     title: "Java",
     href: "https://www.java.com/",
@@ -161,16 +155,17 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Tools", "Design"],
   },
   {
-    key: "ps",
-    title: "Adobe Photoshop",
-    href: "https://www.adobe.com/vn_en/products/photoshop.html",
-    categories: ["Tools", "Design"],
-  },
-  {
     key: "chatgpt",
     title: "ChatGPT",
     href: "https://chatgpt.com/",
     categories: ["Tools", "AI"],
+    theme: true,
+  },
+  {
+    key: "Trae",
+    title: "Trae",
+    href: "https://www.trae.ai/",
+    categories: ["Tools", "AI", "IDE"],
     theme: true,
   },
   // {
