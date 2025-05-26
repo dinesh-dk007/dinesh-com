@@ -65,25 +65,4 @@ export const CERTIFICATIONS: Certification[] = [
     credentialID: "j9brlx5",
     credentialURL: "https://www.futurelearn.com/certificates/j9brlx5",
   },
-  {
-    title: "The Fundamentals of Digital Marketing",
-    issuer: "Google Digital Garage",
-    issueDate: "2022-08-22",
-    credentialID: "3T8-F9N-LKQ",
-    credentialURL: "https://learndigital.withgoogle.com/link/1qsdpcedm9s",
-  },
-  {
-    title: "Microsoft Office Specialist: Microsoft Office PowerPoint® 2013",
-    issuer: "Microsoft",
-    issueDate: "2017-04-16",
-    credentialID: "wXTm3-4SHG",
-    credentialURL: "https://verify.certiport.com/",
-  },
-  {
-    title: "Microsoft Office Specialist: Microsoft Office Word 2013",
-    issuer: "Microsoft",
-    issueDate: "2016-04-24",
-    credentialID: "w9YXr-FMR8",
-    credentialURL: "https://verify.certiport.com/",
-  },
 ];

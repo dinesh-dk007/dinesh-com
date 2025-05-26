@@ -12,7 +12,7 @@ export const EXPERIENCES: Experience[] = [
         employmentType: "Internship",
         icon: "code",
         description:
-          "- Develope and assist the team in various software projects",
+          "- Contributed to the development and support of various software projects, collaborating closely with the team to implement features, troubleshoot issues, and optimize performance.",
         skills: [
           "JavaScript",
           "Software Development",
