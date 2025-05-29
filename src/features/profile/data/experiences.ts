@@ -2,32 +2,6 @@ import { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
-    company: "Bluestock™ Fintech",
-    companyLogo: "/images/companies/Bluestock™.jpeg",
-    positions: [
-      {
-        id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
-        title: "SDE Intern",
-        year: "06.2025 — 07.2025 {Remote} ",
-        employmentType: "Internship",
-        icon: "code",
-        description:
-          "- Contributed to the development and support of various software projects, collaborating closely with the team to implement features, troubleshoot issues, and optimize performance.",
-        skills: [
-          "JavaScript",
-          "Software Development",
-          "Backend Development",
-          "Version Control",
-          "Algorithms",
-          "Documentation",
-          "Teamwork"
-        ],
-        expanded: true
-      }
-    ],
-    current: true
-  },
-  {
     company: "Cognifyz Technologies",
     companyLogo: "/images/companies/Cognifyz.webp",
     positions: [
