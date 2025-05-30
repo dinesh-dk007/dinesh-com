@@ -3,7 +3,7 @@
 import { motion, useScroll, useSpring, useTransform } from "motion/react";
 import Link from "next/link";
 
-import { ChanhDaiMark } from "@/components/chanhdai-mark";
+import { DineshMark } from "@/components/dinesh-mark";
 import { NavItemGitHub } from "@/components/nav-item-github";
 import { ToggleTheme } from "@/components/toggle-theme";
 
@@ -21,7 +21,7 @@ export function StickyHeader() {
         <div className="screen-line-before screen-line-after flex h-12 items-center gap-4 border-x border-edge px-2">
           <motion.div style={{ opacity }}>
             <Link href="/" aria-label="Home" passHref>
-              <ChanhDaiMark className="h-8" />
+              <DineshMark className="h-8" />
             </Link>
           </motion.div>
 

@@ -1,6 +1,6 @@
 export const USER = {
   firstName: "Dinesh",
-  lastName: "Kumaar",
+  lastName: "",
   displayName: "Dinesh Kumaar",
   username: "dinesh-dk007",
   gender: "male",
