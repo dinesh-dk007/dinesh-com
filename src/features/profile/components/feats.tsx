@@ -1,5 +1,5 @@
 // Rename this file to feats.tsx
-import dayjs from "dayjs";
+/*import dayjs from "dayjs";
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -49,3 +49,4 @@ export function Feats() {
     </Panel>
   );
 }
+*/
