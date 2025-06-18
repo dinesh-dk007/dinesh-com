@@ -6,11 +6,11 @@ import { CertificationItem } from "./certification-item";
 
 export function Certifications() {
   return (
-    <Panel id="certs" className="scroll-mt-22">
+    <Panel id="certs">
       <PanelHeader>
         <PanelTitle>
-          Certs
-          <sup className="ml-1 font-mono text-sm text-muted-foreground select-none">
+          Certifications
+          <sup className="ml-1 font-mono text-sm font-medium text-muted-foreground select-none">
             ({CERTIFICATIONS.length})
           </sup>
         </PanelTitle>
@@ -18,6 +18,7 @@ export function Certifications() {
 
       <CollapsibleList
         items={CERTIFICATIONS}
+        max={8}
         renderItem={(item) => <CertificationItem certification={item} />}
       />
     </Panel>

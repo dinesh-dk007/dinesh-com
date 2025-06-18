@@ -3,9 +3,11 @@ import { ArrowUpRightIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-import { cn } from "@/lib/cn";
+import { getIcon, Icons } from "@/components/icons";
+import { Separator } from "@/components/ui/separator";
+import { cn } from "@/lib/utils";
 
-import { Certification } from "../../types/certifications";
+import type { Certification } from "../../types/certifications";
 
 export function CertificationItem({
   className,
@@ -21,48 +23,61 @@ export function CertificationItem({
       target="_blank"
       rel="noopener"
     >
-      {certification.issuerLogo ? (
+      {certification.issuerLogoURL ? (
         <Image
-          src={certification.issuerLogo}
+          src={certification.issuerLogoURL}
           alt={certification.issuer}
           width={32}
           height={32}
           quality={100}
           className="mx-4 flex size-6 shrink-0"
+          unoptimized
+          aria-hidden
         />
       ) : (
         <div
-          className="mx-4 flex size-6 shrink-0 items-center justify-center text-muted-foreground"
-          aria-hidden="true"
+          className="mx-4 flex size-6 shrink-0 items-center justify-center [&_svg]:size-5 [&_svg]:text-muted-foreground"
+          aria-hidden
         >
-          <svg
-            className="size-5"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 256 256"
-          >
-            <path d="M232,86.53V56a16,16,0,0,0-16-16H40A16,16,0,0,0,24,56V184a16,16,0,0,0,16,16H160v24A8,8,0,0,0,172,231l24-13.74L220,231A8,8,0,0,0,232,224V161.47a51.88,51.88,0,0,0,0-74.94ZM128,144H72a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H72a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm88,98.21-16-9.16a8,8,0,0,0-7.94,0l-16,9.16V172a51.88,51.88,0,0,0,40,0ZM196,160a36,36,0,1,1,36-36A36,36,0,0,1,196,160Z"></path>
-          </svg>
+          {getIcon(certification.issuerIconName) ?? <Icons.certificate />}
         </div>
       )}
 
-      <div className="flex-1 space-y-1 border-l border-dashed border-edge px-2 py-4">
-        <h3 className="font-heading leading-snug font-medium text-balance decoration-ring underline-offset-4 group-hover/cert:underline">
+      <div className="flex-1 space-y-1 border-l border-dashed border-edge p-4 pr-2">
+        <h3 className="leading-snug font-medium text-balance underline-offset-4 group-hover/cert:underline">
           {certification.title}
         </h3>
 
-        <p className="flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-sm text-muted-foreground">
-          <span>
-            @<span className="ml-0.5">{certification.issuer}</span>
-          </span>
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
+          <div>
+            <dt className="sr-only">Issued by</dt>
+            <dd>
+              <span aria-hidden>@</span>
+              <span className="ml-0.5">{certification.issuer}</span>
+            </dd>
+          </div>
 
-          <span className="flex h-4 w-px shrink-0 bg-border" />
-          <span>{dayjs(certification.issueDate).format("DD.MM.YYYY")}</span>
-        </p>
+          <Separator
+            className="data-[orientation=vertical]:h-4"
+            orientation="vertical"
+          />
+
+          <div>
+            <dt className="sr-only">Issued on</dt>
+            <dd>
+              <time dateTime={dayjs(certification.issueDate).toISOString()}>
+                {dayjs(certification.issueDate).format("DD.MM.YYYY")}
+              </time>
+            </dd>
+          </div>
+        </div>
       </div>
 
       {certification.credentialURL && (
-        <ArrowUpRightIcon className="size-4 text-muted-foreground" />
+        <ArrowUpRightIcon
+          className="size-4 text-muted-foreground"
+          aria-hidden
+        />
       )}
     </a>
   );
