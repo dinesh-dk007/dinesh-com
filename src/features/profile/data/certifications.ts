@@ -28,6 +28,14 @@ export const CERTIFICATIONS: Certification[] = [
     credentialURL: "https://www.credly.com/badges/6757f5a6-637a-4865-b902-09e6a3c36e78/linked_in_profile",
   },
   {
+    title: "Digital Skills: Digital Marketing",
+    issuer: "Accenture",
+    issuerIconName: "accenture",
+    issueDate: "2024-07-06",
+    credentialID: "j9brlx5",
+    credentialURL: "https://www.futurelearn.com/certificates/j9brlx5",
+  },
+  {
     title: "Introduction to Binary Trees & Sorting",
     issuer: "Skillsoft",
     issuerIconName:"skillsoft",
@@ -38,17 +46,10 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Critical Thinking for Better Judgment and Decision-Making",
     issuer: "LinkedIn",
-    issuerIconName:"LinkedIn",
+    issuerIconName:"linkedin",
     issueDate: "2024-05-05",
     credentialID: "ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
     credentialURL: "https://www.linkedin.com/learning/certificates/ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
   },
-  {
-    title: "Digital Skills: Digital Marketing",
-    issuer: "Accenture",
-    issuerIconName: "accenture",
-    issueDate: "2024-07-06",
-    credentialID: "j9brlx5",
-    credentialURL: "https://www.futurelearn.com/certificates/j9brlx5",
-  },
+  
 ];
