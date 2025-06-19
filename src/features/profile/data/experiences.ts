@@ -35,7 +35,7 @@ export const EXPERIENCES: Experience[] = [
         year: "09.2023 — present",
         icon: "education",
         description:
-          "- Currently studying for a Bachelor's degree in Computer Science Engineering.\n- Language Proficiency: B1 English Level.\n- Achieved several awards, including:\n  - Ranked 2nd place in Inter-Department Coding Competition.\n  - Compeletion of Advance Java Fundamentals Course from [Iamneo](https://iamneo.ai/).\n",
+          "- Currently studying for a Bachelor's degree in Computer Science Engineering.\n- Language Proficiency: B1 English Level.\n- Achieved several awards, including:\n  - Ranked 2nd place in Inter-Department Coding Competition.\n  - Compeletion of Advance Java Fundamentals Course from [Iamneo](https://iamneo.ai/).\n  - Compeletion of Web Development Frameworks Course from [Iamneo](https://iamneo.ai/).",
         skills: [
           "C",
           "C++",
