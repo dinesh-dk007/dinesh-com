@@ -2,10 +2,24 @@ import { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "Pulse-Prep",
+    title: "AI-Powered CRM Interaction Summarizer",
+    time: "05.2025 - 06.2025",
+    link: "https://github.com/krismaya/pulse-prep",
+    tags: [
+      "Flask",
+      "Python",
+      "Openai",
+      "HTML",
+    ],
+    description:
+      "Pulse-Prep is an AI-powered CRM note summarizer that extracts and condenses key information from customer interactions—such as calls, meetings, and notes—into clear, actionable summaries. Designed to boost productivity, it enables sales and support teams to quickly understand client history and make informed decisions without reading through lengthy CRM logs.\n\n“From raw CRM data to sharp summaries — instantly.”",
+  },
+  {
     id: "dinesh.com",
     title: "Portfolio",
     time: "05.2025 - 06.2025",
-    link: "https://www.youtube.com/watch?v=OYgugvjqU4A",
+    link: "https://github.com/dinesh-dk007/dinesh.com",
     tags: [
       "TypeScript",
       "JavaScript",

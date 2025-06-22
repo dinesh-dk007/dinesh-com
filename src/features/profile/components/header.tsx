@@ -3,32 +3,34 @@ import { USER } from "@/data/user";
 import { FlipSentences } from "@/registry/flip-sentences";
 
 import { DineshAvatar } from "./dinesh-avatar";
-import { ChanhDaiCover } from "./chanhdai-cover";
-import { ChanhDaiCoverHello } from "./chanhdai-cover-hello";
+import { DineshCover } from "./dinesh-cover";
+import { DineshCoverHello } from "./dinesh-cover-hello";
 import { VerifiedIcon } from "./verified-icon";
 
 export function Header() {
   return (
     <div className="relative mt-2">
       <div className="flex h-12" />
-      <ChanhDaiCoverHello />
+      <DineshCoverHello />
 
       <div className="screen-line-after flex border-x border-edge">
         <div className="shrink-0 border-r border-edge">
           <div className="mx-[2px] my-[3px]">
             <DineshAvatar className="size-32 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40" />
           </div>
-          {/* Flag of Viet Nam */}
+          {/* Flag of India */}
           {/* <svg
             className="absolute top-0 -left-px h-8 sm:h-9"
             viewBox="0 0 30 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect width="30" height="20" fill="#F00" />
-            <polygon
-              points="15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85"
-              fill="#FFEB00"
-            />
+            <rect width="30" height="20" fill="#FF9933" />
+            <rect y="6.666" width="30" height="6.666" fill="#FFFFFF" />
+            <rect y="13.333" width="30" height="6.666" fill="#138808" />
+            <circle cx="15" cy="10" r="3" fill="#000080" />
+            <circle cx="15" cy="10" r="2.5" fill="#FFFFFF" />
+            <circle cx="15" cy="10" r="1.5" fill="#000080" />
+            <circle cx="15" cy="10" r="0.5" fill="#FFFFFF" />
           </svg> */}
         </div>
 

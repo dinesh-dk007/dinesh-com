@@ -1,7 +1,7 @@
 import { DineshMark } from "@/components/dinesh-mark";
 import { cn } from "@/lib/cn";
 
-export function ChanhDaiCover() {
+export function DineshCover() {
   return (
     <div
       className={cn(

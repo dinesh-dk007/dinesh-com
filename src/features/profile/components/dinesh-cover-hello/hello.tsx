@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { SimpleTooltip } from "@/components/ui/tooltip";
 import { AppleHelloEnglishEffect } from "@/registry/apple-hello-effect";
 
-const layers = ["hello", "chanhdai-wordmark"] as const;
+const layers = ["hello", "dinesh-wordmark"] as const;
 
 export function Hello() {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -46,7 +46,7 @@ export function Hello() {
             />
           )}
 
-          {layers[currentIndex] === "chanhdai-wordmark" && (
+          {layers[currentIndex] === "dinesh-wordmark" && (
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}

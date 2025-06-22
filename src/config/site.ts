@@ -3,7 +3,7 @@ import { USER } from "@/data/user";
 export const SITE_INFO = {
   name: USER.displayName,
   url: (typeof process !== 'undefined' ? process.env.APP_URL : undefined) || "https://dinesh-dk007.com",
-  ogImage: "/og-image.png",
+  ogImage: "/dinesh-og-image.png",
   description: USER.bio,
   keywords: ["software engineer", "web developer", "Backend developer", "javascript", "react", "node.js"],
 };
@@ -16,7 +16,7 @@ export const META_THEME_COLORS = {
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/dinesh-dk007/dinesh.com";
 
 // You can remove or update these holidays according to your preference
-export const VIETNAM_HOLIDAYS = [];
+//export const VIETNAM_HOLIDAYS = [];
 
 export const UTM_PARAMS = {
   utm_source: "dinesh-dk007.com",
