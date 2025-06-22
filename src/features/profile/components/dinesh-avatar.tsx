@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import ImgAvatar from "@/../public/images/chanhdai-avatar-ghibli.jpg";
+import ImgAvatar from "@/../public/images/dinesh-avatar-ghibli.jpg";
 import { USER } from "@/data/user";
 
-export function ChanhDaiAvatar({
+export function DineshAvatar({
   className,
   size,
   priority = true,
