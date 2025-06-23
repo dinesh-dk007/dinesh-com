@@ -32,24 +32,18 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Runtime Environment"],
   },
   {
-    key: "bun",
-    title: "Bun",
-    href: "https://bun.sh/",
-    categories: ["Runtime Environment"],
-  },
-  {
     key: "react",
     title: "React",
     href: "https://react.dev/",
     categories: ["Library", "UI Library"],
   },
-  {
+  /*{
     key: "nextjs2",
     title: "Next.js",
     href: "https://nextjs.org/",
     categories: ["Framework"],
     theme: true,
-  },
+  },*/
   {
     key: "tailwindcss",
     title: "Tailwind CSS",
@@ -63,25 +57,25 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library", "Component Library"],
     theme: true,
   },
-  {
+  /*{
     key: "radixui",
     title: "Radix UI",
     href: "https://www.radix-ui.com/",
     categories: ["Library", "Component Library"],
     theme: true,
-  },
+  },*/
   {
     key: "motion",
     title: "Motion",
     href: "https://motion.dev/",
     categories: ["Library", "Animation"],
   },
-  {
+  /*{
     key: "mobx-state-tree",
     title: "MobX-State-Tree",
     href: "https://mobx-state-tree.js.org/",
     categories: ["State Management"],
-  },
+  },*/
   {
     key: "redux",
     title: "Redux",
@@ -106,18 +100,18 @@ export const TECH_STACK: TechStack[] = [
     href: "https://reactnavigation.org/",
     categories: ["Library", "Navigation"],
   },
-  {
+  /*{
     key: "loopback",
     title: "LoopBack",
     href: "https://loopback.io/",
     categories: ["Framework"],
-  },
-  {
+  },*/
+  /*{
     key: "laravel",
     title: "Laravel",
     href: "https://laravel.com/",
     categories: ["Framework"],
-  },
+  },*/
   {
     key: "git",
     title: "Git",
@@ -142,12 +136,12 @@ export const TECH_STACK: TechStack[] = [
     href: "https://www.mongodb.com/",
     categories: ["Database"],
   },
-  {
+  /*{
     key: "redis",
     title: "Redis",
     href: "https://redis.io/",
     categories: ["Database"],
-  },
+  },*/
   {
     key: "figma",
     title: "Figma",
