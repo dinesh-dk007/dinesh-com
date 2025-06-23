@@ -40,12 +40,11 @@ export const Index: Record<string, any> = {`;
       path: "${filePath}",
       type: "${file.type}",
     }`;
-    })}],${
-      item.type === "registry:example"
-        ? `
+    })}],${item.type === "registry:example"
+      ? `
     component: React.lazy(() => import("${componentPath}")),`
-        : ""
-    }
+      : ""
+      }
   },`;
   }
 
@@ -56,8 +55,8 @@ export const Index: Record<string, any> = {`;
   const registryJSON = JSON.stringify(
     {
       $schema: "https://ui.shadcn.com/schema/registry.json",
-      name: "ncdai",
-      homepage: "https://chanhdai.com",
+      name: "dinesh",
+      homepage: "https://dinesh.com",
       items: registry.items
         .filter((item) => item.type !== "registry:example")
         .map((item) => {

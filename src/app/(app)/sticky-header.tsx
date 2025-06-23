@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ChanhDaiMark } from "@/components/chanhdai-mark";
+import { DineshMark } from "@/components/dinesh-mark";
 import { NavItemGitHub } from "@/components/nav-item-github";
 import { NavItemRSS } from "@/components/nav-item-rss";
 import { ToggleTheme } from "@/components/toggle-theme";
@@ -11,7 +11,7 @@ export function StickyHeader() {
       <div className="mx-auto px-4 md:max-w-3xl">
         <div className="screen-line-before screen-line-after flex h-12 items-center justify-between border-x border-edge px-2">
           <Link href="/" aria-label="Home">
-            <ChanhDaiMark className="h-8" />
+            <DineshMark className="h-8" />
           </Link>
 
           <div className="flex items-center gap-2">

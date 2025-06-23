@@ -1,10 +1,10 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "ncdai",
-  "homepage": "https://chanhdai.com",
+  "name": "dinesh",
+  "homepage": "https://dinesh.com",
   "items": [
     {
-      "name": "cn",
+      "name": "dk",
       "type": "registry:lib",
       "dependencies": [
         "clsx",
@@ -12,7 +12,7 @@
       ],
       "files": [
         {
-          "path": "src/lib/cn.ts",
+          "path": "src/lib/dk.ts",
           "type": "registry:lib"
         }
       ]
@@ -26,7 +26,7 @@
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/cn.json"
+        "https://dinesh.com/r/cn.json"
       ],
       "files": [
         {
@@ -42,7 +42,7 @@
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/cn.json"
+        "https://dinesh.com/r/cn.json"
       ],
       "files": [
         {
@@ -58,7 +58,7 @@
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/cn.json"
+        "https://dinesh.com/r/cn.json"
       ],
       "files": [
         {

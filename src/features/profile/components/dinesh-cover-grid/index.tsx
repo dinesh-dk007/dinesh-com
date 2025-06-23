@@ -2,7 +2,7 @@ import { cn } from "@/lib/cn";
 
 import { LogoResizeAnimation } from "./logo-resize-animation";
 
-export function ChanhDaiCoverGrid() {
+export function DineshCoverGrid() {
   return (
     <div
       className={cn(

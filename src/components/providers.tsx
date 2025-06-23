@@ -17,7 +17,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
         enableSystem
         disableTransitionOnChange
         enableColorScheme
-        storageKey="chanhdai.theme"
+        storageKey="dinesh.theme"
         defaultTheme="system"
         attribute="class"
       >

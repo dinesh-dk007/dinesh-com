@@ -4,7 +4,7 @@ export const examples: Registry["items"] = [
   {
     name: "apple-hello-effect-demo",
     type: "registry:example",
-    registryDependencies: ["https://chanhdai.com/r/apple-hello-effect.json"],
+    registryDependencies: ["https://dinesh.com/r/apple-hello-effect.json"],
     files: [
       {
         path: "examples/apple-hello-effect-demo.tsx",
@@ -15,7 +15,7 @@ export const examples: Registry["items"] = [
   {
     name: "theme-switcher-demo",
     type: "registry:example",
-    registryDependencies: ["https://chanhdai.com/r/theme-switcher.json"],
+    registryDependencies: ["https://dinesh.com/r/theme-switcher.json"],
     files: [
       {
         path: "examples/theme-switcher-demo.tsx",

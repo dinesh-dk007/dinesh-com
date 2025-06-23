@@ -5,7 +5,7 @@ export const components: Registry["items"] = [
     name: "theme-switcher",
     type: "registry:component",
     dependencies: ["next-themes", "lucide-react", "motion"],
-    registryDependencies: ["https://chanhdai.com/r/cn.json"],
+    registryDependencies: ["https://dinesh.com/r/cn.json"],
     files: [
       {
         path: "theme-switcher/theme-switcher.tsx",
@@ -17,7 +17,7 @@ export const components: Registry["items"] = [
     name: "flip-sentences",
     type: "registry:component",
     dependencies: ["motion"],
-    registryDependencies: ["https://chanhdai.com/r/cn.json"],
+    registryDependencies: ["https://dinesh.com/r/cn.json"],
     files: [
       {
         path: "flip-sentences/flip-sentences.tsx",
@@ -29,7 +29,7 @@ export const components: Registry["items"] = [
     name: "apple-hello-effect",
     type: "registry:component",
     dependencies: ["motion"],
-    registryDependencies: ["https://chanhdai.com/r/cn.json"],
+    registryDependencies: ["https://dinesh.com/r/cn.json"],
     files: [
       {
         path: "apple-hello-effect/apple-hello-effect.tsx",
