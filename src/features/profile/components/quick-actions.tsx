@@ -1,14 +1,10 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { USER } from "@/data/user";
-import { useIsClient } from "@/hooks/use-is-client";
-import { decodeEmail } from "@/utils/string";
 
 import { NavDropdown } from "./nav/nav-dropdown";
 
 export function QuickActions() {
-  const isClient = useIsClient();
 
   return (
     <>

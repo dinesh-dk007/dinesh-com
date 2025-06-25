@@ -1,3 +1,3 @@
-export function  DineshWordmark(props: React.ComponentProps<"svg">) {
+export function DineshWordmark() {
   return null;
 }

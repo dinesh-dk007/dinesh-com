@@ -3,7 +3,6 @@ import { USER } from "@/data/user";
 import { FlipSentences } from "@/registry/flip-sentences";
 
 import { DineshAvatar } from "./dinesh-avatar";
-import { DineshCover } from "./dinesh-cover";
 import { DineshCoverHello } from "./dinesh-cover-hello";
 import { VerifiedIcon } from "./verified-icon";
 
