@@ -12,7 +12,7 @@ export const EXPERIENCES: Experience[] = [
         employmentType: "Internship",
         icon: "code",
         description:
-          "- Developed and implemented Python solutions for various problem-solving challenges\n- Created efficient GUI applications using Python frameworks\n- Debugged and optimized existing Python codebase to improve performance\n- Worked with Python libraries and frameworks to build user-friendly interfaces\n- Collaborated with team members to solve complex programming problems\n- Gained hands-on experience in Python development through real-world projects\n- Applied algorithmic thinking to solve diverse programming challenges\n- Implemented best practices in Python coding and documentation",
+          "- Developed and implemented Python solutions for various problem-solving challenges\n- Created efficient GUI applications using Python frameworks\n- Debugged and optimized existing Python codebase to improve performance\n- Collaborated with team members to solve complex programming problems.",
         skills: [
           "Python",
           "GUI Development",
