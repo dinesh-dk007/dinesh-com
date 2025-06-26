@@ -17,20 +17,6 @@ export function Header() {
           <div className="mx-[2px] my-[3px]">
             <DineshAvatar className="size-32 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40" />
           </div>
-          {/* Flag of India */}
-          {/* <svg
-            className="absolute top-0 -left-px h-8 sm:h-9"
-            viewBox="0 0 30 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="30" height="20" fill="#FF9933" />
-            <rect y="6.666" width="30" height="6.666" fill="#FFFFFF" />
-            <rect y="13.333" width="30" height="6.666" fill="#138808" />
-            <circle cx="15" cy="10" r="3" fill="#000080" />
-            <circle cx="15" cy="10" r="2.5" fill="#FFFFFF" />
-            <circle cx="15" cy="10" r="1.5" fill="#000080" />
-            <circle cx="15" cy="10" r="0.5" fill="#FFFFFF" />
-          </svg> */}
         </div>
 
         <div className="flex flex-1 flex-col">

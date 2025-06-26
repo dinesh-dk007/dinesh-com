@@ -26,7 +26,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://leetcode.com/u/dineshkumaar9025067808/",
   },
   {
-    icon: "/images/link-icons/skillrack.jpg",
+    icon: "/images/link-icons/Skillrack.jpg",
     title: "SkillRack",
     description: "Dinesh Kumaar K",
     href: "https://www.skillrack.com/faces/resume.xhtml?id=438686&key=858dcba16bd4b14fff7afd1257d3728828f701b8",
