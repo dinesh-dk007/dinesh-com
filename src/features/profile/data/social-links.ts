@@ -20,7 +20,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://app.daily.dev/dinesh__dk___",
   },
   {
-    icon: "/images/link-icons/leetcode.webp",
+    icon: "/images/link-icons/Leetcode.webp",
     title: "LeetCode",
     description: "Dinesh Kumaar K",
     href: "https://leetcode.com/u/dineshkumaar9025067808/",
