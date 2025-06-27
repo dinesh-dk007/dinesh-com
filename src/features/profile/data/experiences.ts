@@ -37,6 +37,7 @@ export const EXPERIENCES: Experience[] = [
         description:
           "- Currently studying for a Bachelor's degree in Computer Science Engineering.\n- Language Proficiency: B1 English Level.\n- Achieved several awards, including:\n  - Ranked 2nd place in Inter-Department Coding Competition.\n  - Compeletion of Advance Java Fundamentals Course from [Iamneo](https://iamneo.ai/).\n  - Compeletion of Web Development Frameworks Course from [Iamneo](https://iamneo.ai/).",
         skills: [
+          "Engineering",
           "C",
           "C++",
           "Advance Java",
@@ -68,7 +69,6 @@ export const EXPERIENCES: Experience[] = [
           "History",
           "MySQL",
           "Science",
-          "Life Skills"
         ]
       }
     ]
