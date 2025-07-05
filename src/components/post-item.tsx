@@ -4,7 +4,14 @@ import Link from "next/link";
 import React from "react";
 
 import { cn } from "@/lib/cn";
-import { Post } from "@/types/blog";
+interface Post {
+  slug: string;
+  metadata: {
+    title: string;
+    image?: string;
+    createdAt: string | Date;
+  };
+}
 
 export function PostItem({
   post,
