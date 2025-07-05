@@ -15,7 +15,7 @@ export const USER = {
   address: "Chennai, India",
   phoneNumber: "NzMwNTU1NTIzNw==", // Your base64 encoded phone number
   email: "ZGluZXNoa3VtYWFyOTAyNTA2NzgwOEBnbWFpbC5jb20=", // Your base64 encoded email
-  website: "https://dinesh.com",
+  website: "https://dinesh-com.vercel.app",
   otherWebsites: [
     "https://github.com/dinesh-dk007"
   ],
