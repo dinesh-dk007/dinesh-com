@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/*import { NextResponse } from "next/server";
 import VCard from "vcard-creator";
 
 import { SITE_INFO } from "@/config/site";
@@ -61,4 +61,4 @@ export async function GET() {
       "Content-Disposition": `attachment; filename=${USER.username}-vcard.vcf`,
     },
   });
-}
+}*/
