@@ -64,19 +64,19 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library", "Component Library"],
     theme: true,
   },*/
-  {
+  /*{
     key: "motion",
     title: "Motion",
     href: "https://motion.dev/",
     categories: ["Library", "Animation"],
-  },
+  },*/
   /*{
     key: "mobx-state-tree",
     title: "MobX-State-Tree",
     href: "https://mobx-state-tree.js.org/",
     categories: ["State Management"],
   },*/
-  {
+  /*{
     key: "redux",
     title: "Redux",
     href: "https://redux.js.org/",
@@ -119,12 +119,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Version Control"],
   },
   {
-    key: "docker",
-    title: "Docker",
-    href: "https://www.docker.com/",
-    categories: ["Containerization"],
-  },
-  {
     key: "mysql",
     title: "MySQL",
     href: "https://www.mysql.com/",
@@ -154,6 +148,13 @@ export const TECH_STACK: TechStack[] = [
     href: "https://chatgpt.com/",
     categories: ["Tools", "AI"],
     theme: true,
+  },
+  {
+    key: "vscode",
+    title: "VS Code",
+    href: "https://code.visualstudio.com/",
+    categories: ["Tools", "Code Editor"],
+    theme: false  // Remove theme support to use single icon
   },
 
   // {

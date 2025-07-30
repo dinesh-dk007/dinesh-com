@@ -39,10 +39,10 @@ export default function Page() {
             <Overview />
             <Pattern />
 
-            <SocialLinks />
+            <About />
             <Pattern />
 
-            <About />
+            <SocialLinks />
             <Pattern />
 
             <TeckStack />
