@@ -136,12 +136,12 @@ export const TECH_STACK: TechStack[] = [
     href: "https://redis.io/",
     categories: ["Database"],
   },*/
-  {
+  /*{
     key: "figma",
     title: "Figma",
     href: "https://www.figma.com/",
     categories: ["Tools", "Design"],
-  },
+  },*/
   {
     key: "chatgpt",
     title: "ChatGPT",
