@@ -60,5 +60,14 @@ export const CERTIFICATIONS: Certification[] = [
     credentialID: "ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
     credentialURL: "https://www.linkedin.com/learning/certificates/ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
   },
+  {
+    title: "Java Programming Fundamentals",
+    issuer: "Infosys Spring Board",
+    issuerIconName: "infosys",
+    issueDate: "2024-04-23",
+    credentialID: "012880464547618816347",
+    credentialURL:
+      "https://drive.google.com/file/d/1kjbQ6H8webUKsMZXieuv_yFJ7kWnD_iz/view?usp=sharing",
+  },
 
 ];
