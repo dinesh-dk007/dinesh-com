@@ -2,6 +2,15 @@ import { Certification } from "../types/certifications";
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    title: "Software Engineer Intern",
+    issuer: "Hackerrank",
+    issuerIconName: "hackerrank",
+    issueDate: "2025-08-04",
+    credentialID: "5822c02f8549",
+    credentialURL:
+      "https://www.hackerrank.com/certificates/iframe/5822c02f8549",
+  },
+  {
     title: "React Foundations for Next.js",
     issuer: "Vercel",
     issuerIconName: "vercel",
@@ -38,7 +47,7 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Introduction to Binary Trees & Sorting",
     issuer: "Skillsoft",
-    issuerIconName:"skillsoft",
+    issuerIconName: "skillsoft",
     issueDate: "2024-05-03",
     credentialID: "102882398",
     credentialURL: "https://skillsoft.digitalbadges.skillsoft.com/10ad7ce5-61b1-43dc-a104-a4c526193e17",
@@ -46,10 +55,10 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Critical Thinking for Better Judgment and Decision-Making",
     issuer: "LinkedIn",
-    issuerIconName:"linkedin",
+    issuerIconName: "linkedin",
     issueDate: "2024-05-05",
     credentialID: "ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
     credentialURL: "https://www.linkedin.com/learning/certificates/ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
   },
-  
+
 ];
