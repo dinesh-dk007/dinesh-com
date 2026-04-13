@@ -2,6 +2,14 @@ import { Certification } from "../types/certifications";
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    title: "Service now Certified System Administrator",
+    issuer: "ServiceNow",
+    issuerLogoURL: "/images/companies/ServiceNow.webp",
+    issueDate: "2024-05-05",
+    credentialID: "ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
+    credentialURL: "https://www.service-now.com/certificates/ac6cf7af966772244c37911a77b7be72de7a6181a7f7524d59b1c701a9706208",
+  },
+  {
     title: "Software Engineer Intern",
     issuer: "Hackerrank",
     issuerIconName: "hackerrank",

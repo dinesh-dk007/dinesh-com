@@ -31,7 +31,7 @@ export function QuickActions() {
 
                 <Button size="lg" asChild>
                   <a
-                    href="mailto:dineshkumaar9025067808@gmail.com"
+                    href="mailto:dineshkumaark160@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
