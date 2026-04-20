@@ -97,7 +97,7 @@
     "@types/react-dom": "19.2.3"
   },
   "engines": {
-    "node": "20 || >=22",
+    "node": "22.x",
     "pnpm": ">=9"
   },
   "packageManager": "pnpm@10.10.0"
