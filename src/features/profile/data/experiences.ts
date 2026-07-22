@@ -2,29 +2,27 @@ import { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
-    company: "Cognifyz Technologies",
-    companyLogo: "/images/companies/Cognifyz.webp",
+    company: "Rocket India",
+    companyLogo: "/images/companies/RocketIndia.png",
     positions: [
       {
         id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
-        title: "Python Developer Intern",
-        year: "05.2024 — 06.2024 {Remote} ",
-        employmentType: "Internship",
+        title: "SDE - Intern",
+        year: "07.2026 - ꝏ {Chennai} ",
+        employmentType: "Trainee",
         icon: "code",
-        description:
-          "- Developed and implemented Python solutions for various problem-solving challenges\n- Created efficient GUI applications using Python frameworks\n- Debugged and optimized existing Python codebase to improve performance\n- Collaborated with team members to solve complex programming problems.",
         skills: [
-          "Python",
-          "GUI Development",
+          "Python", "Java",
+          "Software Development",
           "Problem Solving",
           "Algorithms",
-          "Documentation",
+          "Data Engineering",
           "Teamwork"
         ],
         expanded: true
       }
     ],
-    current: false
+    current: true
   },
   {
     company: "Education",
