@@ -7,9 +7,9 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
-        title: "SDE - Intern",
+        title: "Software Developer",
         year: "07.2026 - ꝏ {Chennai} ",
-        employmentType: "Trainee",
+        employmentType: "Intern",
         icon: "code",
         skills: [
           "Python", "Java",
