@@ -43,6 +43,7 @@ export const PROJECTS: Project[] = [
       "JPA",
       "Git",
       "Restful API",
+      "PostMan",
     ],
     description:
       "A Spring Boot REST API that parses recipe data from a JSON file, stores it in a database, and provides endpoints to manage and query recipes.\n\n Implemented file parsing, database integration, and RESTful API endpoints to manage recipe data efficiently.",
