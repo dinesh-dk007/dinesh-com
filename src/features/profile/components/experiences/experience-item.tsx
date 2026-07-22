@@ -8,14 +8,14 @@ export function ExperienceItem({ experience }: { experience: Experience }) {
   return (
     <div className="screen-line-after space-y-4 py-4">
       <div className="flex items-center gap-3">
-        <span className="flex size-6 shrink-0 items-center justify-center">
+        <span className="flex size-15 shrink-0 items-center justify-center">
           {experience.companyLogo ? (
             <Image
               src={experience.companyLogo}
               alt={experience.company}
-              width={28}
-              height={28}
-              quality={100}
+              width={50}
+              height={50}
+              quality={1000}
               className="rounded-full"
             />
           ) : (

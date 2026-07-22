@@ -14,7 +14,7 @@ export const USER = {
   ],
   address: "Chennai, India",
   phoneNumber: "NzMwNTU1NTIzNw==", // Your base64 encoded phone number
-  email: "ZGluZXNoa3VtYWFyOTAyNTA2NzgwOEBnbWFpbC5jb20=", // Your base64 encoded email
+  email: "ZGluZXNoa3VtYWFyazE2MEBnbWFpbC5jb20=", // Your base64 encoded email
   website: "https://dinesh-com.vercel.app",
   otherWebsites: [
     "https://github.com/dinesh-dk007"
@@ -23,15 +23,15 @@ export const USER = {
   jobTitle: "Student",
   jobs: [
     {
-      title: "Penultimate Year Student ",
-      company: "RMKCET",
-      website: "https://rmkcet.ac.in/index.php",
+      title: "SDE - Intern",
+      company: "Rocket India",
+      website: "https://rocket.com/",
     }
   ],
   about: `
-Hello, World! I am Dinesh — a Backend Developer passionate about creating high-performance, scalable software solutions.
+Hello, World! I am Dinesh — a Tech Saavy passionate about creating high-performance, scalable software solutions.
 
-With experience in backend development, I specialize in building robust server-side applications. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+I specialize in building robust server-side applications. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
 
 Let's connect and collaborate!
   `

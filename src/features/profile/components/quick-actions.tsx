@@ -1,10 +1,15 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { USER } from "@/data/user";
+import { useIsClient } from "@/hooks/use-is-client";
+import { decodeEmail } from "@/utils/string";
 
 import { NavDropdown } from "./nav/nav-dropdown";
 
 export function QuickActions() {
+  const isClient = useIsClient();
+  const email = decodeEmail(USER.email);
 
   return (
     <>
@@ -31,7 +36,7 @@ export function QuickActions() {
 
                 <Button size="lg" asChild>
                   <a
-                    href="mailto:dineshkumaark160@gmail.com"
+                    href={isClient ? `mailto:${email}` : "#"}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
