@@ -31,4 +31,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     description: "Dinesh Kumaar K",
     href: "https://www.skillrack.com/faces/resume.xhtml?id=438686&key=858dcba16bd4b14fff7afd1257d3728828f701b8",
   },
+  {
+    icon: "/images/link-icons/CodeForces.png",
+    title: "CodeForces",
+    description: "dinesh__dk___",
+    href: "https://codeforces.com/profile/dinesh__dk___",
+  },
 ];

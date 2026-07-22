@@ -3,6 +3,15 @@ import { Award } from "../types/awards";
 export const AWARDS: Award[] = [
   {
     id: "a144bd19-3706-4e4c-ba22-0e0d8302642a",
+    prize: "ISTE Best Student Award 2025",
+    title: "Best Student Award 2025",
+    date: "2025-12",
+    grade: "4th Year",
+    description:
+      "- Field: Overall Performance \n- Description: Awarded for outstanding academic performance and contributions to the institute.",
+  },
+  {
+    id: "a144bd19-3706-4e4c-ba22-0e0d8302642a",
     prize: "AIR - 99",
     title: "Unstop Coding Challenge",
     date: "2025-04",
