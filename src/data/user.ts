@@ -6,9 +6,8 @@ export const USER = {
   gender: "male",
   bio: "Creating with code, driven by passion.",
   flipSentences: [
-    "Backend Developer",
-    "Competitive Java Programmer",
-    "Solved 1500+ Coding Problems",
+    "Software Developer",
+    "Competitive Programmer",
     "Contest rating of 1600+ on Leetcode",
     "Open Source Contributor",
   ],
