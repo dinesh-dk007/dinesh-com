@@ -60,7 +60,7 @@ export const EXPERIENCES: Experience[] = [
         year: "01.2012 — 03.2023",
         icon: "school",
         description:
-          "- Achieved numerous awards:\n  - Gold Medal in athletics 400m Relay Race\n  - Scored centum in Physics grade 12 test\n- Achieved the title of Outstanding Student from Grade 2-12.\n",
+          "- Achieved numerous awards:\n  - Gold Medal in athletics 400m Relay Race\n- Achieved the title of Outstanding Student from Grade 2-12.\n",
         skills: [
           "Python",
           "Math",
