@@ -13,7 +13,6 @@ export const USER = {
     "Open Source Contributor",
   ],
   address: "Chennai, India",
-  phoneNumber: "NzMwNTU1NTIzNw==", // Your base64 encoded phone number
   email: "ZGluZXNoa3VtYWFyazE2MEBnbWFpbC5jb20=", // Your base64 encoded email
   website: "https://dinesh-com.vercel.app",
   otherWebsites: [
