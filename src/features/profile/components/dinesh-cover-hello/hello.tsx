@@ -3,6 +3,7 @@
 import { RepeatIcon } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import React, { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 
 import { DineshMark } from "@/components/dinesh-mark";
 import { Button } from "@/components/ui/button";
@@ -53,7 +54,8 @@ export function Hello() {
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.5 }}
             >
-              <DineshMark className="h-12 sm:h-16" />
+              {/* <DineshMark className="h-12 sm:h-16" /> */}
+              <Image src="/ogImage.png" alt="Dinesh Wordmark" width={565} height={80} />
             </motion.div>
           )}
         </div>
