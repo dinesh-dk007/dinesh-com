@@ -55,7 +55,20 @@ export function Hello() {
               transition={{ duration: 0.5 }}
             >
               {/* <DineshMark className="h-12 sm:h-16" /> */}
-              <Image src="/ogImage.png" alt="Dinesh Wordmark" width={565} height={80} />
+              <Image
+                src="/ogImageWhite.png"
+                alt="Dinesh Wordmark"
+                width={565}
+                height={80}
+                className="dark:hidden"
+              />
+              <Image
+                src="/ogImage.png"
+                alt="Dinesh Wordmark"
+                width={565}
+                height={80}
+                className="hidden dark:block"
+              />
             </motion.div>
           )}
         </div>

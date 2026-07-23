@@ -1,9 +1,9 @@
 "use client";
 
 import { motion, useScroll, useSpring, useTransform } from "motion/react";
+import Image from "next/image";
 import Link from "next/link";
 
-import { DineshMark } from "@/components/dinesh-mark";
 import { NavItemGitHub } from "@/components/nav-item-github";
 import { ToggleTheme } from "@/components/toggle-theme";
 
@@ -20,8 +20,14 @@ export function StickyHeader() {
       <div className="mx-auto px-4 md:max-w-3xl">
         <div className="screen-line-before screen-line-after flex h-12 items-center gap-4 border-x border-edge px-2">
           <motion.div style={{ opacity }}>
-            <Link href="/" aria-label="Home" passHref>
-              <DineshMark className="h-8" />
+            <Link href="/" aria-label="Home">
+              <Image
+                src="/maskable-icon.png"
+                alt="Dinesh"
+                width={800}
+                height={512}
+                className="size-8"
+              />
             </Link>
           </motion.div>
 

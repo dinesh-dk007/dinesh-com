@@ -11,12 +11,12 @@ export function StickyHeader() {
       <div className="mx-auto px-4 md:max-w-3xl">
         <div className="screen-line-before screen-line-after flex h-12 items-center justify-between border-x border-edge px-2">
           <Link href="/" aria-label="Home">
-            <DineshMark className="h-8" />
+            {/* <DineshMark className="h-8" /> */}
           </Link>
 
           <div className="flex items-center gap-2">
-            <NavItemRSS />
-            <NavItemGitHub />
+            {/* <NavItemRSS /> */}
+            {/* <NavItemGitHub /> */}
             <ToggleTheme />
           </div>
         </div>
